@@ -14,6 +14,10 @@
 		0D21F0E524FF596000CF2BDF /* IosEssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0E424FF596000CF2BDF /* IosEssentialsTests.swift */; };
 		0D21F0F424FFDFB700CF2BDF /* CountrySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */; };
 		0D21F0F825009F0900CF2BDF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */; };
+		0DEE49C22501038400A1A40F /* CountrySearchViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE49C12501038400A1A40F /* CountrySearchViewPresentable.swift */; };
+		0DEE49C42501042A00A1A40F /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE49C32501042A00A1A40F /* BundleExtension.swift */; };
+		0DEE49C8250109B200A1A40F /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE49C7250109B200A1A40F /* NetworkManger.swift */; };
+		0DEE49CA250109DA00A1A40F /* CountrySearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEE49C9250109DA00A1A40F /* CountrySearchPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		0D21F0E624FF596000CF2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchViewController.swift; sourceTree = "<group>"; };
 		0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0DEE49C12501038400A1A40F /* CountrySearchViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchViewPresentable.swift; sourceTree = "<group>"; };
+		0DEE49C32501042A00A1A40F /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		0DEE49C7250109B200A1A40F /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		0DEE49C9250109DA00A1A40F /* CountrySearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				0D21F0CD24FF595E00CF2BDF /* AppDelegate.swift */,
+				0DEE49C9250109DA00A1A40F /* CountrySearchPresenter.swift */,
 				0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */,
+				0DEE49C12501038400A1A40F /* CountrySearchViewPresentable.swift */,
 				0D21F0CF24FF595E00CF2BDF /* SceneDelegate.swift */,
 				0D21F0F625009EE300CF2BDF /* extensions */,
 				0D21F0D624FF595F00CF2BDF /* Assets.xcassets */,
 				0D21F0D824FF595F00CF2BDF /* LaunchScreen.storyboard */,
 				0D21F0DB24FF595F00CF2BDF /* Info.plist */,
+				0DEE49C7250109B200A1A40F /* NetworkManger.swift */,
 			);
 			path = IosEssentials;
 			sourceTree = "<group>";
@@ -103,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */,
+				0DEE49C32501042A00A1A40F /* BundleExtension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -208,9 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D21F0CE24FF595E00CF2BDF /* AppDelegate.swift in Sources */,
+				0DEE49CA250109DA00A1A40F /* CountrySearchPresenter.swift in Sources */,
 				0D21F0D024FF595E00CF2BDF /* SceneDelegate.swift in Sources */,
+				0DEE49C8250109B200A1A40F /* NetworkManger.swift in Sources */,
 				0D21F0F825009F0900CF2BDF /* UIViewExtension.swift in Sources */,
+				0DEE49C22501038400A1A40F /* CountrySearchViewPresentable.swift in Sources */,
 				0D21F0F424FFDFB700CF2BDF /* CountrySearchViewController.swift in Sources */,
+				0DEE49C42501042A00A1A40F /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
