@@ -10,9 +10,17 @@ import UIKit
 
 class CountrySearchViewController: UIViewController {
 
+    let centerPoint = UIView(frame: .zero)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        centerPoint.backgroundColor = .red
+        centerPoint.pin(to: view,
+                        topEdge: 100,
+                        trailingEdge: 30,
+                        height: 60,
+                        width: 60)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

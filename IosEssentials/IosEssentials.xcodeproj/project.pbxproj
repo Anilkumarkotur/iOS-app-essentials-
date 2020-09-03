@@ -13,6 +13,7 @@
 		0D21F0DA24FF595F00CF2BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D21F0D824FF595F00CF2BDF /* LaunchScreen.storyboard */; };
 		0D21F0E524FF596000CF2BDF /* IosEssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0E424FF596000CF2BDF /* IosEssentialsTests.swift */; };
 		0D21F0F424FFDFB700CF2BDF /* CountrySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */; };
+		0D21F0F825009F0900CF2BDF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0D21F0E424FF596000CF2BDF /* IosEssentialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosEssentialsTests.swift; sourceTree = "<group>"; };
 		0D21F0E624FF596000CF2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchViewController.swift; sourceTree = "<group>"; };
+		0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0D21F0CD24FF595E00CF2BDF /* AppDelegate.swift */,
 				0D21F0F324FFDFB700CF2BDF /* CountrySearchViewController.swift */,
 				0D21F0CF24FF595E00CF2BDF /* SceneDelegate.swift */,
+				0D21F0F625009EE300CF2BDF /* extensions */,
 				0D21F0D624FF595F00CF2BDF /* Assets.xcassets */,
 				0D21F0D824FF595F00CF2BDF /* LaunchScreen.storyboard */,
 				0D21F0DB24FF595F00CF2BDF /* Info.plist */,
@@ -94,6 +97,14 @@
 				0D21F0E624FF596000CF2BDF /* Info.plist */,
 			);
 			path = IosEssentialsTests;
+			sourceTree = "<group>";
+		};
+		0D21F0F625009EE300CF2BDF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D21F0F725009F0900CF2BDF /* UIViewExtension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			files = (
 				0D21F0CE24FF595E00CF2BDF /* AppDelegate.swift in Sources */,
 				0D21F0D024FF595E00CF2BDF /* SceneDelegate.swift in Sources */,
+				0D21F0F825009F0900CF2BDF /* UIViewExtension.swift in Sources */,
 				0D21F0F424FFDFB700CF2BDF /* CountrySearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
